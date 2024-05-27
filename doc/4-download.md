@@ -21,7 +21,9 @@ The compiled binaries will be stored in the *bin* folder.
 1. Make sure that the hardware configuration is allready present in the target (downloaded with TIA portal for example).
 2. Assuming that the target is a PLCSIM advanced instance, in the terminal excecute the following command;
 
-```apax sld load --accept-security-disclaimer -i ".\\bin\\plcsim" -t 192.168.0.1 --mode full -l -r debug```
+```
+apax sld load --accept-security-disclaimer -i ".\\bin\\plcsim" -t 192.168.0.1 --mode full -l debug -r
+```
 
 > Note: for a physical S7-1500 replace ".\\bin\\plcsim" by ".\\bin\\1500" also note that the -t (target) tag defines the IP of the target.
 
@@ -33,14 +35,15 @@ The compiled binaries will be stored in the *bin* folder.
 ```
 variables:
   IP_PLC: 192.168.0.1
+  BIN_FOLDER: "./bin/plcsim" 
 ```
 2. Now add a `scripts` section to the `apax.yml` and add a script for building and downloading the project to the target;
 ```
 scripts:
-  loadsim: apax sld load --accept-security-disclaimer -i ".\\bin\\plcsim" -t $IP_PLC --mode full -l debug
-  blsim:                         //build and load the application to a plcsim instance
+load: apax sld load --input $BIN_FOLDER --target $IP_ADDRESS --restart --accept-security-disclaimer --log debug
+  blsim:                 
     - apax build
-    - apax loadsim
+    - apax load
 ```
 3. Execute the script from the terminal by using the `apax blsim` command, the application will now build an download to the target IP_PLC
 

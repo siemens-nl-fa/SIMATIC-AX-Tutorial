@@ -39,21 +39,6 @@ VAR_GLOBAL
  END_VAR
 ```
 
-### :raised_hands: Adding a library package using Apax (hands-on) :raised_hands:
-
-A wide range of basic functionality including math, timing, string or counting is already available with SIMATIC AX.
-
-This functionality is provided via packages, which can be added to your project using the Apax package manager.
-
-Using existing functions instead of developing the same functionality a second time helps you develop your program faster.
-
-There is a library package already available in SIMATIC AX called **system-counters** that provides counter functionality suitable for this application.
-
-#### Add it to your project:
-
-1. Click on the **Apax** icon on the left side in the Activity Bar to show the Apax AX Code Extension GUI.
-2. Enter `system-counters` in the **Search Packages field**. This will show you the package in the **AVAILABLE** section.
-3. Press the **Install button** next to the package name to add it to your project.
 
 ### :raised_hands: Coding program logic (hands-on) :raised_hands:
 
@@ -117,9 +102,9 @@ END_PROGRAM
 7. Lets create a new Function to use in the program, the Function should take a input value and calculate the input to the power of 2. To do this first create a new file called `function.st` and them add the code below:
 
 ```
-FUNCTION Power : Int
+FUNCTION Power : LINT
     VAR_INPUT
-        x : INT;
+        x : LINT;
     END_VAR
     Power := x * x;
 END_FUNCTION
@@ -130,6 +115,7 @@ END_FUNCTION
 ```
    power_value := Power(count_value);
 ```
+
 
 
 ### :mortar_board: Summary :mortar_board:

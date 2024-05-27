@@ -48,9 +48,9 @@ variables:
 3. Save and close the file and go the **Tracing** panel.
 4. Click the **Add configuration** button, a new file will be created, in the **signals** section add both **count_value** and **power_value**.
 5. In the **tracing** panel click add plc and select **plc_1** from the prompt.
-6. Right click on the plc_1 entry and select install job, select the created trace job.
-7. Right click on the plc_1 entry and select enable trace
-8. Right click on the plc_1 entry and select view>live view, this should open the live trace
+6. Right click on the **plc_** entry and select **install job**, select the created trace job.
+7. Right click on the **example** trace entry and select enable trace
+8. Right click on the **example** trace entry and select **open as..>live graph**, this should open the live trace
 
 ## :mortar_board: Summary :mortar_board:
 

@@ -50,7 +50,7 @@ During this tutorial the following prerequisites are required.
 - an installation of the offline AX IDE logged in to APAX (using apax login)
 - locally configured Git install
 - TIA portal V18> installation
-- PLCSIM Advanced or physical s7-1500
+- PLCSIM Advanced or physical s7-1500 with a loaded hardware configuration
 
 ## Additional information
 

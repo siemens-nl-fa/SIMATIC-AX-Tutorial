@@ -17,7 +17,7 @@ After this training chapter, you will:
 3. Click Browse and select an empty folder. Your project will be stored here.
    Select the Apax template for Application Project to initialize a new project with application sample code.
 4. Click on Create Project to create the application.
-5. Confirm the `Do you trust the authors of the files in this folder? dialog` by clicking on **Yes, I trust the authors**. Further infos about Workspace Trust can be found in the VS Code docs
+5. Confirm the *Do you trust the authors of the files in this folder?* dialog by clicking on **Yes, I trust the authors**. Further infos about Workspace Trust can be found in the VS Code docs
 
 > Note: the next chapter is information regarding the folder structure and apax package manager, the hands-on will [continue](:raised_hands:-Installing-packages-trough-Apax-(Hands-on)-:raised_hands:) after the information sections.
 
@@ -53,11 +53,11 @@ The header of this file includes some basic information about the project.
 
 The `targets` section contains the desired targets to compile the software for. In our case this is the `S7-1500`, but `plcsim` would also be a valid value.
 
-#### **devDependencies**
+#### **DevDependencies**
 
 The `devDependencies` section contains development dependencies which are required during development.
 
-#### **dependencies** and **registries**
+#### **Dependencies** and **registries**
 
 `Dependencies` are packages that contain code that will be executed. These can be for example libraries or system functions of the S7-1500. Registries are currently not in our apax.yml but can be used to add additional `registries` where other packages can be found. For example the from the node regristry of the [AX Community Github](https://github.com/simatic-ax).
 
@@ -71,12 +71,12 @@ In this training we'll make use of the **system-counters** library, `@ax/system-
 
 1. In the sidebar open the `Apax tab`
 2. Search for **system-counters**
-3. **click** the install button next to the entry of **system-counters** the library will now be installed as a dependency. And will be added to the dependencies in the `apax.yml`.
+3. **click** on the entry of **system-counters** and select version: **6.0.94** then click the install button, the library will now be installed as a dependency. And will be added to the dependencies in the `apax.yml`.
 
 alternatively we can also install the package using the command line in AX code:
 
 1. use **ctrl+shift+`** to open a new powershell panel.
-2. use the command `apax add @ax/system-counters` to install the latest version of the **system-counters** library. The package will now be installed and added to the dependencies in the `apax.yml`.
+2. use the command `apax add "@ax/system-timer": ^6.0.94` to install the latest version of the **system-counters** library. The package will now be installed and added to the dependencies in the `apax.yml`.
 
 ### :mortar_board: Summary :mortar_board:
 
