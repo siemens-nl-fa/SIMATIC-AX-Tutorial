@@ -8,7 +8,6 @@ After this training chapter, you will:
 - know how to define global variables and IO in the `configuration.st`
 - know how to implement AX libraries in your code
 - be able to code simple program logic
--
 
 ### :raised_hands: Configuring tasks and global variables (hands-on) :raised_hands:
 

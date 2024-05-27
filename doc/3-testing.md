@@ -1,4 +1,4 @@
-# 2. Usage of the testing framework
+# 3. Usage of the testing framework
 
 ## :mortar_board: Goal for this training chapter :mortar_board:
 
