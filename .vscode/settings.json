@@ -1,0 +1,5 @@
+{
+    "tracing.pinnedPlcs": [
+        "plc_1.yml"
+    ]
+}

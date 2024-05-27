@@ -26,12 +26,12 @@ This tutorial is structured in multiple sequential chapters, which can be used a
 
 ## Training chapters
 
-- [1. Setting up a project using the Apax package manager](./doc/1-intro.md) :arrow_left:(Start here)
-- [2. Write your application in ST](./doc/3-simple-code.md)
-- [3. Usage of the testing framework](./doc/4-testing-framework.md)
-- [4. Compile and download to the PLC](./doc/5-programmingOwn.md)
-- [5. Debugging the program](./doc/6-debugLibRuntime.md)
-- [6. OOP with Structured Text](./doc/7-oop.md)
+- [1. Setting up a project using the Apax package manager](./doc/1-setup.md) :arrow_left:(Start here)
+- [2. Write your application in ST](./doc/2-coding.md)
+- [3. Usage of the testing framework](./doc/3-testing.md)
+- [4. Build and download the application](./doc/4-download.md)
+- [5. Debugging the program](./doc/5-debug.md)
+
 
 ### Bonus chapters
 

@@ -1,0 +1,55 @@
+# SIMATIC AX Trace Configuration
+## The line above allows for validation and auto completion of YAML properties in this configuration file when opened in the AX Code IDE.
+
+## The information about Configuration File could be found on https://console.simatic-ax.siemens.io/docs/tracing/configuration-file
+
+## The desired name of the trace job.
+name: example
+
+## The type of the trace job - can be finite or perpetual
+jobType: finite
+
+## An array of signals to be traced.
+signals:
+  - count_value
+  - power_value
+
+## The checkPoint group contains settings to configure capture of a sample
+#checkPoint:
+
+## The task to sample on. The format of a task is "Configuration_Name.Task_Name"
+#  task: PLC_1.Main
+
+## Whether to check the value before or after the task (default: after)
+#  position: after
+
+## The rate at which to capture samples on the checkPoint (Default: 1)
+#frequency: 1
+
+## FINITE JOB ADDITIONAL ELEMENTS
+
+## The desired number of samples for the job
+sampleCount: 1000
+
+## Configurations related to creating a trigger
+#saveTrigger:
+
+## The condition for the trigger (see https://console.simatic-ax.siemens.io/docs/tracing/configuration-file#condition-construction)
+#  condition: Tag1 = 50
+
+## The number of samples to retain from before the trigger condition is met
+#  preSamples: 5
+
+## Configurations for persisting measurements on the memory card
+#memoryCard:
+
+## The number of measurements to store before the job is complete
+#  saveCount: 5
+
+## Tell the job to continue running after hitting the saveCount, and overwrite the oldest measurement with the newest one.
+#  overwriteWhenFull: false
+
+## PERPETUAL JOB ADDITIONAL ELEMENTS
+
+## The number of samples that can be kept in the job's internal storage
+#bufferCount: 10000

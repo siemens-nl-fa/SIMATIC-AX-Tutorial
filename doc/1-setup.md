@@ -88,6 +88,6 @@ Goal reached? Check yourself...
 - you know how to use the Apax extension ✔
 - you know the difference between `devDependencies` and `dependencies` ✔
 
-[Continue with next chapter](./2-testing-framework.md)
+[Continue with next chapter](./2-coding.md)
 
 [Back to overview](./../README.md)

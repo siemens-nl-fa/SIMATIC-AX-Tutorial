@@ -8,4 +8,8 @@ variables:
   APAX_BUILD_ARGS:
     - "--debug" # Generate debug information for target "1500"
 devDependencies:
-  "@ax/sdk": 2311.1.1
+  "@ax/sdk": 2311.0.1
+dependencies:
+  "@ax/system-counters": 6.0.94
+installStrategy: strict
+apaxVersion: 3.1.0
