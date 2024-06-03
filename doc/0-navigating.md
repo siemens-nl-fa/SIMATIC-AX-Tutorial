@@ -38,7 +38,7 @@ Status Bar - Information about the opened project and the files you edit.
 For more in-depth information about the GUI check the [Visual Studio Code docs](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 
-### :exclamation: AX specific Activities (information) :exclamation:
+### :information_source: AX specific Activities (information) :information_source:
 
 Most of the functionality that is specific for AX is accesed through the activity bar. From top to bottom we'll find the following activities in the AX IDE by default;
 - [Explorer](https://code.visualstudio.com/docs/getstarted/userinterface) - Here you can acces the workspace filesystem.

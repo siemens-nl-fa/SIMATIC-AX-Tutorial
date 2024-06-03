@@ -21,7 +21,7 @@ After this training chapter, you will:
 
 > Note: the next chapter is information regarding the folder structure and apax package manager, the hands-on will [continue](:raised_hands:-Installing-packages-trough-Apax-(Hands-on)-:raised_hands:) after the information sections.
 
-### :exclamation: Introducing AX project folder structure (information) :exclamation:
+### :information_source: Introducing AX project folder structure (information) :information_source:
 
 Once your project is created and opened, you will find the following files and folders present in your workspace:
 
@@ -34,7 +34,7 @@ Once your project is created and opened, you will find the following files and f
 
 Depending on the tools used and installed more folders may be created. For example for compiled source code the `bin` folder is created, or for apax packages are installed the `.apax` folder is created.
 
-### :exclamation: Introducing apax.yml (information) :exclamation:
+### :information_source: Introducing apax.yml (information) :information_source:
 
 > Note: If you are already familiar with `Apax` and the `apax.yml` you can skip this section.
 
