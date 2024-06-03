@@ -26,7 +26,8 @@ This tutorial is structured in multiple sequential chapters, which can be used a
 
 ## Training chapters
 
-- [1. Setting up a project using the Apax package manager](./doc/1-setup.md) :arrow_left:(Start here)
+- [0. Navigating AX](./doc/0-navigating.md) :arrow_left:(Start here)
+- [1. Setting up a project using the Apax package manager](./doc/1-setup.md)
 - [2. Write your application in ST](./doc/2-coding.md)
 - [3. Usage of the testing framework](./doc/3-testing.md)
 - [4. Build and download the application](./doc/4-download.md)

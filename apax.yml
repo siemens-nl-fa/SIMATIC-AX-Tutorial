@@ -9,6 +9,7 @@ variables:
     - "--debug" # Generate debug information for target "1500"
 devDependencies:
   "@ax/sdk": 2311.0.1
+  "@ax/st-lang-contrib-library-toolbox": ^0.19.2
 dependencies:
   "@ax/system-counters": 6.0.94
 installStrategy: strict

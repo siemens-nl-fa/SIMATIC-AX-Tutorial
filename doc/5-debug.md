@@ -22,6 +22,7 @@ variables:
 
 ### :raised_hands: Setting up the debugger in AX (hands-on) :raised_hands:
 
+> Note: The latest SDK allready creates the required `launch.json` file in the `.vscode` folder. The next steps are no longer required.
 1. Open the Debug tab
 2. Press the `Create a launch.json file` link
 3. Select PLC Debug
@@ -47,8 +48,8 @@ variables:
    ```host: 192.168.0.1```
 3. Save and close the file and go the **Tracing** panel.
 4. Click the **Add configuration** button, a new file will be created, in the **signals** section add both **count_value** and **power_value**.
-5. In the **tracing** panel click add plc and select **plc_1** from the prompt.
-6. Right click on the **plc_** entry and select **install job**, select the created trace job.
+5. In the **tracing** panel click **pin plc** and select **plc_1** from the prompt.
+6. Right click on the **plc_1** entry and select **install job**, select the created trace job.
 7. Right click on the **example** trace entry and select enable trace
 8. Right click on the **example** trace entry and select **open as..>live graph**, this should open the live trace
 
@@ -61,7 +62,5 @@ Goal reached? Check yourself...
 - you got familiar with monitoring variables in your code from AX ✔
 
 Check out the official docs [AX docs](https://console.simatic-ax.siemens.io/docs/ax2tia/debugging_workflow)
-
-[Continue with next chapter](./6-oop.md)
 
 [Back to overview](./../README.md)

@@ -10,7 +10,8 @@
       "@ax/system-counters": "6.0.94"
     },
     "devDependencies": {
-      "@ax/sdk": "2311.0.1"
+      "@ax/sdk": "2311.0.1",
+      "@ax/st-lang-contrib-library-toolbox": "^0.19.2"
     }
   },
   "packages": {
@@ -36,6 +37,13 @@
         "@ax/plc-info": "2.3.0",
         "@ax/certificate-management": "1.1.0"
       }
+    },
+    "@ax/st-lang-contrib-library-toolbox": {
+      "name": "@ax/st-lang-contrib-library-toolbox",
+      "version": "0.19.2",
+      "integrity": "sha512-AhyT/kpH6+scCNeStUfCBH0d6EKYPUQYT4MI5Aq838HSJWf64deGx+VdnNXVpKeShRC4JSz6ZTTvKuZrkCDz4g==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-lang-contrib-library-toolbox/-/st-lang-contrib-library-toolbox-0.19.2.tgz",
+      "dependencies": {}
     },
     "@ax/system-counters": {
       "name": "@ax/system-counters",
