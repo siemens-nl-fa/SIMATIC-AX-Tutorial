@@ -23,4 +23,4 @@ Time to put your creativity and AX knowledge to the test, create your own applic
 Goal reached? Check yourself...
 - You have a running application on your (simulated) PLC.
 
-[Back to overview](./../README.md)
+:arrow_heading_up: [Back to overview](./../README.md)

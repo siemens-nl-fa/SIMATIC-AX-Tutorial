@@ -48,6 +48,6 @@ Goal reached? Check yourself...
 - you can execute tests within the IDE ✔
 - you've knowledge about the command line based testing ✔
 
-[Continue with next chapter](./4-download.md)
+:arrow_right: [Continue with next chapter](./4-download.md)
 
-[Back to overview](./../README.md)
+:arrow_heading_up: [Back to overview](./../README.md)

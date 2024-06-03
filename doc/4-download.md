@@ -56,6 +56,6 @@ Goal reached? Check yourself...
 - you are able to create a script to simplify the building and downloading process✔
 
 
-[Continue with next chapter](./5-debug.md)
+:arrow_right: [Continue with next chapter](./5-debug.md)
 
-[Back to overview](./../README.md)
+:arrow_heading_up: [Back to overview](./../README.md)

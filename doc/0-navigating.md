@@ -63,6 +63,6 @@ Goal reached? Check yourself...
 - you have a overview of the general layout of the AX IDE✔
 - you know how to navigate the AX IDE ✔
 
-[Continue with next chapter](./1-setup.md)
+:arrow_right: [Continue with next chapter](./1-setup.md)
 
-[Back to overview](./../README.md)
+:arrow_heading_up: [Back to overview](./../README.md)

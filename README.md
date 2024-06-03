@@ -56,7 +56,7 @@ During this tutorial the following prerequisites are required.
 
 ## Additional information
 
-- This tutorial was inspiration for creating the simatic-ax-tiax-tutorial: [standardizer-tutorial-lib](https://github.com/simatic-ax/standardizer-tutorial-lib)
+- This tutorial was inspiration for creating the simatic-ax-tutorial: [standardizer-tutorial-lib](https://github.com/simatic-ax/standardizer-tutorial-lib)
 - [The AX website](https://axcite.me) (login required)
 - [The AX Community Github](https://github.com/simatic-ax)
 - [The SIOS overview page](https://support.industry.siemens.com/cs/document/109815017)

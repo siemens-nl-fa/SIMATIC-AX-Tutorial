@@ -129,6 +129,6 @@ Goal reached? Check yourself...
 - you are able to write a simple program for your application ✔
 - you know how to create a function that can be used in your application ✔
 
-[Continue with next chapter](./3-testing.md)
+:arrow_right: [Continue with next chapter](./3-testing.md)
 
-[Back to overview](./../README.md)
+:arrow_heading_up: [Back to overview](./../README.md)
