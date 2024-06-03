@@ -27,7 +27,7 @@ The AX IDE is available as both a local IDE and a web-based IDE.
 AX is based upon Visual Studio Code, and therefore comes with a lot of features and advantages we know and love from VS Code.
 
 let's take a look at the user interface of AX code;
-![drawing](./doc/assets/gui.png)
+![drawing](./assets/gui.png)
 
 - Editor - The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.
 - Primary Side Bar - Contains different views like the Explorer to assist you while working on your project.
@@ -52,7 +52,7 @@ Most of the functionality that is specific for AX is accesed through the activit
 - [PLC Explorer](https://console.simatic-ax.siemens.io/docs/axcode/plc-explorer#plc-explorer) - AX specific, Navigate remote PLC's, trace or download them. 
 
 
-![drawing](./doc/assets/actionpanel.png)
+![drawing](./assets/actionpanel.png)
 
 All AX functionalities can also be called using the intergrated terminal of the AX IDE. The intergrated terminal can be accesed with; *ctrl+shift+`*. 
 
