@@ -7,7 +7,7 @@ After this training session:
 - you can execute tests within the AX IDE
 - you've knowledge about the command line based testing
 
-### :raised_hands: Writing unit tests (hands-on) :raised_hands:
+## :raised_hands: Writing unit tests (hands-on) :raised_hands:
 
 1. open the `/test/test.st` file above the replace the *{test}* pragma with the following;
 

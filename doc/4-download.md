@@ -8,7 +8,7 @@ After this training chapter, you will:
 - Know how to download the application to a PLC
 - Be able to simplify the process of building and downloading with scripting
 
-### :raised_hands: Building the project (hands-on) :raised_hands:
+## :raised_hands: Building the project (hands-on) :raised_hands:
 
 1. Open the `apax.yml` and verify that the target `plcsim` and `1500` are present, add them if necessary.
 2. Open the terminal by using the shortcut *ctrl+shift+`*
@@ -16,7 +16,7 @@ After this training chapter, you will:
 
 The compiled binaries will be stored in the *bin* folder.
 
-### :raised_hands: Downloading to the target (hands-on) :raised_hands:
+## :raised_hands: Downloading to the target (hands-on) :raised_hands:
 
 1. Make sure that the hardware configuration is allready present in the target (downloaded with TIA portal for example).
 2. Assuming that the target is a PLCSIM advanced instance, in the terminal excecute the following command;
@@ -29,7 +29,7 @@ apax sld load --accept-security-disclaimer -i ".\\bin\\plcsim" -t 192.168.0.1 --
 
 > Note: for more information about the tags used in the command use `apax sld load -h`
 
-### :raised_hands: Simplyfing the process using Apax scripts (hands-on) :raised_hands:
+## :raised_hands: Simplyfing the process using Apax scripts (hands-on) :raised_hands:
 
 1.  Open the `apax.yml` and add a `variables` section to the file and create a variable with the IP of the target;
 ```

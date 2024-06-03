@@ -6,7 +6,7 @@ After this training chapter, you will:
 
 - have created your very own application in AX
 
-### :raised_hands: Create your own code (hands-on) :raised_hands:
+## :raised_hands: Create your own code (hands-on) :raised_hands:
 Time to put your creativity and AX knowledge to the test, create your own application or add a new function into the project. You can create whatever you like, might be good to follow these steps;
 - What are you going to make?
 - How often is this required to run?

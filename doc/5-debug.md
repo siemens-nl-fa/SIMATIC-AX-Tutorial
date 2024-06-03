@@ -8,7 +8,7 @@ After this training chapter, you will:
 - learn how to setup the debugger in AX
 - Be familair with monitoring variables in your code
 
-### :raised_hands: Requirements for debugging (hands-on) :raised_hands:
+## :raised_hands: Requirements for debugging (hands-on) :raised_hands:
 
 1. The AX application must be build with the `--debug` argument in the `apax.yml`. Check is this is true for your project. If the argument is not yet present add the following line to the `apax.yml` and rebuild the library.
 
@@ -20,7 +20,7 @@ variables:
 
 2. Rebuild and download the application to the target.
 
-### :raised_hands: Setting up the debugger in AX (hands-on) :raised_hands:
+## :raised_hands: Setting up the debugger in AX (hands-on) :raised_hands:
 
 > Note: The latest SDK allready creates the required `launch.json` file in the `.vscode` folder. The next steps are no longer required.
 1. Open the Debug tab
@@ -32,7 +32,7 @@ variables:
 
 > Note: the `launch.json` file should be sufficient as is, unless the IP of the target is different.
 
-### :raised_hands: Start debugging (hands-on):raised_hands:
+## :raised_hands: Start debugging (hands-on):raised_hands:
 
 1. Add logpoints to your code at the locations where you want to take a closer look by **right clicking** a variable name and select **Add to logpoint** for example **count_value** and **power_value** in the`program.st` file.
 2. Start debugging by pressing *F5*, the actual values of the logpoints should be displayed
@@ -41,7 +41,7 @@ variables:
 
 > Note: If issues occur, make sure that your set pg/pc interface is correctly configured.
 
-### :raised_hands: Tracing variables (hands-on):raised_hands:
+## :raised_hands: Tracing variables (hands-on):raised_hands:
 
 1. To enable the tracing ability of AX create a new file in the following structure `.ax\plc\plc_1.yml`
 2. This file should contain the following;

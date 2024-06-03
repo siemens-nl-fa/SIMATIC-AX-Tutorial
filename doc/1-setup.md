@@ -10,7 +10,7 @@ After this training chapter, you will:
 - are able to install and update dependencies using the Apax extension
 - know the difference between `devDependencies` and `dependencies`
 
-### :raised_hands: Creating a new AX project (hands-on) :raised_hands:
+## :raised_hands: Creating a new AX project (hands-on) :raised_hands:
 
 1. Click on the **Apax icon** on the left side in the Activity Bar to show the Apax AX Code Extension GUI. This provides you a small setup wizard to create your new project.
 2. Enter a Project Name in the wizard on the left side.
@@ -21,7 +21,7 @@ After this training chapter, you will:
 
 > Note: the next chapter is information regarding the folder structure and apax package manager, the hands-on will [continue](:raised_hands:-Installing-packages-trough-Apax-(Hands-on)-:raised_hands:) after the information sections.
 
-### :information_source: Introducing AX project folder structure (information) :information_source:
+## :information_source: Introducing AX project folder structure (information) :information_source:
 
 Once your project is created and opened, you will find the following files and folders present in your workspace:
 
@@ -34,14 +34,14 @@ Once your project is created and opened, you will find the following files and f
 
 Depending on the tools used and installed more folders may be created. For example for compiled source code the `bin` folder is created, or for apax packages are installed the `.apax` folder is created.
 
-### :information_source: Introducing apax.yml (information) :information_source:
+## :information_source: Introducing apax.yml (information) :information_source:
 
 > Note: If you are already familiar with `Apax` and the `apax.yml` you can skip this section.
 
 The `apax.yml` defines the project, required dependecies and provides scripting for automating actions within the AX IDE. Since the `apax.yml` is the heart of the AX project it is important to have a good understanding of it's components.
 The following chapters will discuss these components.
 
-#### **Project information**
+### **Project information**
 
 The header of this file includes some basic information about the project.
 
@@ -49,23 +49,23 @@ The header of this file includes some basic information about the project.
 - `version: 0.0.1` the version of the library.
 - `type: app` the project type.
 
-#### Targets
+### Targets
 
 The `targets` section contains the desired targets to compile the software for. In our case this is the `S7-1500`, but `plcsim` would also be a valid value.
 
-#### **DevDependencies**
+### **DevDependencies**
 
 The `devDependencies` section contains development dependencies which are required during development.
 
-#### **Dependencies** and **registries**
+### **Dependencies** and **registries**
 
 `Dependencies` are packages that contain code that will be executed. These can be for example libraries or system functions of the S7-1500. Registries are currently not in our apax.yml but can be used to add additional `registries` where other packages can be found. For example the from the node regristry of the [AX Community Github](https://github.com/simatic-ax).
 
-#### Variables and scripts
+### Variables and scripts
 
 The `scripts` section is used to describe several scripts which can be used to automate commands within Apax. For example the comand `create-tialib` will execute the commands `apax build`, `apax export-tialib` and `apax import-tialib`. This is usefull for automating jobs that normally would be executed from the terminal. The `variables` can be used as parameters to adjust the scripts. In this case the variables will provide the necesary paths for saving the binaries and TIA portal library file.
 
-### :raised_hands: Installing packages trough Apax (Hands-on) :raised_hands:
+## :raised_hands: Installing packages trough Apax (Hands-on) :raised_hands:
 
 In this training we'll make use of the **system-counters** library, `@ax/system-counters`. However if you inspected the `apax.yml` closely you might have seen that the `@ax/system-counters` package is not present in the dependecies list, and therefore not availible in the workspace. In this chapter we'll install this package.
 
@@ -78,7 +78,7 @@ alternatively we can also install the package using the command line in AX code:
 1. use **ctrl+shift+`** to open a new powershell panel.
 2. use the command `apax add "@ax/system-timer": ^6.0.94` to install the latest version of the **system-counters** library. The package will now be installed and added to the dependencies in the `apax.yml`.
 
-### :mortar_board: Summary :mortar_board:
+## :mortar_board: Summary :mortar_board:
 
 Goal reached? Check yourself...
 

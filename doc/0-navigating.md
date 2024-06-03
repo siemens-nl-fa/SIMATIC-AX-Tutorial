@@ -8,7 +8,7 @@ After this training chapter, you will:
 - know the philosophy behind AX
 
 
-### :information_source: Introduction (information) :information_source:
+## :information_source: Introduction (information) :information_source:
 
 SIMATIC AX (Automation Xpansion) is a new engineering IDE, which exists next to the TIA Portal ecosystem. The AX IDE is equiped with dynamic tools and packages, built to integrate with IT-oriented workflows. The AX IDE offers a familiar environment for most new employees and IT programmers.
 
@@ -22,7 +22,7 @@ The existing environment for creating and maintaining standardized PLC libraries
 
 The AX IDE is available as both a [local IDE](https://console.simatic-ax.siemens.io/downloads) and a [web-based IDE](https://console.simatic-ax.siemens.io/workspaces).
 
-### :information_source: Navigating the AX IDE (information) :information_source:
+## :information_source: Navigating the AX IDE (information) :information_source:
 
 AX is based upon Visual Studio Code, and therefore comes with a lot of features and advantages we know and love from VS Code.
 
@@ -38,7 +38,7 @@ Status Bar - Information about the opened project and the files you edit.
 For more in-depth information about the GUI check the [Visual Studio Code docs](https://code.visualstudio.com/docs/getstarted/userinterface).
 
 
-### :information_source: AX specific Activities (information) :information_source:
+## :information_source: AX specific Activities (information) :information_source:
 
 Most of the functionality that is specific for AX is accesed through the activity bar. From top to bottom we'll find the following activities in the AX IDE by default;
 - [Explorer](https://code.visualstudio.com/docs/getstarted/userinterface) - Here you can acces the workspace filesystem.
@@ -56,7 +56,7 @@ Most of the functionality that is specific for AX is accesed through the activit
 
 All AX functionalities can also be called using the intergrated terminal of the AX IDE. The intergrated terminal can be accesed with; *ctrl+shift+`*. 
 
-### :mortar_board: Summary :mortar_board:
+## :mortar_board: Summary :mortar_board:
 
 Goal reached? Check yourself...
 

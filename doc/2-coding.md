@@ -9,7 +9,7 @@ After this training chapter, you will:
 - know how to implement AX libraries in your code
 - be able to code simple program logic
 
-### :raised_hands: Configuring tasks and global variables (hands-on) :raised_hands:
+## :raised_hands: Configuring tasks and global variables (hands-on) :raised_hands:
 
 1. Open the **explorer** pane by clicking the icon in the activity bar
 2. Open the `src/configuration.st`, the file will now open in the editor
@@ -40,7 +40,7 @@ VAR_GLOBAL
 ```
 
 
-### :raised_hands: Coding program logic (hands-on) :raised_hands:
+## :raised_hands: Coding program logic (hands-on) :raised_hands:
 
 1. Open the `src/program.st`, this file contains the basic structure of a `PROGRAM` section in structured text.
 2. In the `VAR_EXTERNAL` section we can define the Global variables that are required for our program. Add the following variables to the `VAR_EXTERNAL` section:
@@ -118,7 +118,7 @@ END_FUNCTION
 
 
 
-### :mortar_board: Summary :mortar_board:
+## :mortar_board: Summary :mortar_board:
 
 Goal reached? Check yourself...
 
