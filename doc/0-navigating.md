@@ -8,7 +8,7 @@ After this training chapter, you will:
 - know the philosophy behind AX
 
 
-### :exclamation: Introduction (information) :exclamation:
+### :information_source: Introduction (information) :information_source:
 
 SIMATIC AX (Automation Xpansion) is a new engineering IDE, which exists next to the TIA Portal ecosystem. The AX IDE is equiped with dynamic tools and packages, built to integrate with IT-oriented workflows. The AX IDE offers a familiar environment for most new employees and IT programmers.
 
@@ -20,9 +20,9 @@ The existing environment for creating and maintaining standardized PLC libraries
 - IEC conformant programming language (ST including OOP).
 - unit tests with no need for additional PLC runtimes.
 
-The AX IDE is available as both a local IDE and a web-based IDE.
+The AX IDE is available as both a [local IDE](https://console.simatic-ax.siemens.io/downloads) and a [web-based IDE](https://console.simatic-ax.siemens.io/workspaces).
 
-### :exclamation: Navigating the AX IDE (information) :exclamation:
+### :information_source: Navigating the AX IDE (information) :information_source:
 
 AX is based upon Visual Studio Code, and therefore comes with a lot of features and advantages we know and love from VS Code.
 
