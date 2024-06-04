@@ -7,7 +7,9 @@ After this training chapter, you will:
 - have created your very own application in AX
 
 ## :raised_hands: Create your own code (hands-on) :raised_hands:
+
 Time to put your creativity and AX knowledge to the test, create your own application or add a new function into the project. You can create whatever you like, might be good to follow these steps;
+
 - What are you going to make?
 - How often is this required to run?
 - What is needed to verify the functionality?
@@ -21,6 +23,7 @@ Time to put your creativity and AX knowledge to the test, create your own applic
 ## :mortar_board: Summary :mortar_board:
 
 Goal reached? Check yourself...
+
 - You have a running application on your (simulated) PLC.
 
 :arrow_heading_up: [Back to overview](./../README.md)

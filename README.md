@@ -32,7 +32,7 @@ This tutorial is structured in multiple sequential chapters, which can be used a
 - [3. Usage of the testing framework](./doc/3-testing.md)
 - [4. Build and download the application](./doc/4-download.md)
 - [5. Debugging the program](./doc/5-debug.md)
-- [6. Do It Yourself (create your own application)](./doc/6-goodluck.md)
+- [6. Do It Yourself (create your own application)](./doc/6-diy.md)
 
 
 ### Bonus chapters

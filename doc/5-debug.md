@@ -63,6 +63,6 @@ Goal reached? Check yourself...
 
 Check out the official docs [AX docs](https://console.simatic-ax.siemens.io/docs/ax2tia/debugging_workflow)
 
-:arrow_right: [Continue with next chapter](./6-goodluck.md)
+:arrow_right: [Continue with next chapter](./6-diy.md)
 
 :arrow_heading_up: [Back to overview](./../README.md)
