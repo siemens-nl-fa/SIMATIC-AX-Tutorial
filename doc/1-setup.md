@@ -76,7 +76,7 @@ In this training we'll make use of the **system-counters** library, `@ax/system-
 alternatively we can also install the package using the command line in AX code:
 
 1. use **ctrl+shift+`** to open a new powershell panel.
-2. use the command `apax add "@ax/system-timer": ^6.0.94` to install the latest version of the **system-counters** library. The package will now be installed and added to the dependencies in the `apax.yml`.
+2. use the command `apax add "@ax/system-timer": ^6.0.94` to install this specific version of the **system-counters** library. The package will now be installed and added to the dependencies in the `apax.yml`.
 
 ## :mortar_board: Summary :mortar_board:
 
