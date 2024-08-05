@@ -22,7 +22,7 @@ After this training session:
         VAR_INPUT
             input : LINT;                                                   //Define input as LINT
         END_VAR
-        Assert.Equal(Actual := Power(input) , expected := input*input);     //Call the power function with input and assume that the output is input*input
+        AxUnit.Assert.Equal(Actual := Power(input) , expected := input*input);     //Call the power function with input and assume that the output is input*input
 ```
 
 
