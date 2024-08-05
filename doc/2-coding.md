@@ -18,8 +18,8 @@ The file will have a basic configuration section inside, like the one in the fol
 
 ```
 CONFIGURATION MyConfiguration                       //start of the configuration section
-    TASK Main(Priority := 1); //defines a plc task with name Main at a interval of 1000ms with priority 1
-    PROGRAM P1 WITH Main: MainProgram;                //defines that program p1 will run with task Main and will exist of code within MyProgram
+    TASK Main(Priority := 1);                       //defines a plc task with name Main at a interval of 1000ms with priority 1
+    PROGRAM P1 WITH Main: MainProgram;              //defines that program p1 will run with task Main and will exist of code within MyProgram
 
     VAR_GLOBAL                                      //Defines the start of the global var section
 
