@@ -42,7 +42,7 @@ VAR_GLOBAL
 
 ## :raised_hands: Coding program logic (hands-on) :raised_hands:
 
-1. Open the `src/MainProgram.st`, this file contains the basic structure of a `PROGRAM` section in structured text.
+1. Open the `src/MainMainProgram.st`, this file contains the basic structure of a `PROGRAM` section in structured text.
 2. In the `VAR_EXTERNAL` section we can define the Global variables that are required for our program. Add the following variables to the `VAR_EXTERNAL` section:
 
 ```
@@ -54,7 +54,7 @@ VAR_EXTERNAL                                        //Defines global variables t
 END_VAR
 ```
 
-3. In this program we would like to use the **system-counters** library, to be able to utilize this library we have to declare the usage of the package in the `program.st` document. Add the following line to the top of the document:
+3. In this program we would like to use the **system-counters** library, to be able to utilize this library we have to declare the usage of the package in the `MainProgram.st` document. Add the following line to the top of the document:
 
 ```
 USING System.Counters;
@@ -77,7 +77,7 @@ count.reset := count_value >= 10;                   //restart the counter and it
 ```
 6. The `VAR_TEMP` section can be removed for better readability since it is not used.
 
-> Note: The steps above should result in the following `program.st` :
+> Note: The steps above should result in the following `MainProgram.st` :
 ```
 USING System.Counters;
 
@@ -111,7 +111,7 @@ END_FUNCTION
 
 ```
 
-8. In the `program.st` call the Power FB and use the count_value as input by adding the following line above the END_PROGRAM keyword:
+8. In the `MainProgram.st` call the Power FB and use the count_value as input by adding the following line above the END_PROGRAM keyword:
 ```
    power_value := Power(count_value);
 ```
