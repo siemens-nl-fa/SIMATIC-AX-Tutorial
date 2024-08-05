@@ -42,7 +42,7 @@ VAR_GLOBAL
 
 ## :raised_hands: Coding program logic (hands-on) :raised_hands:
 
-1. Open the `src/MainMainProgram.st`, this file contains the basic structure of a `PROGRAM` section in structured text.
+1. Open the `src/MainProgram.st`, this file contains the basic structure of a `PROGRAM` section in structured text.
 2. In the `VAR_EXTERNAL` section we can define the Global variables that are required for our program. Add the following variables to the `VAR_EXTERNAL` section:
 
 ```
