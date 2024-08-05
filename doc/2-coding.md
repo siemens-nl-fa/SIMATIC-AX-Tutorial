@@ -18,8 +18,8 @@ The file will have a basic configuration section inside, like the one in the fol
 
 ```
 CONFIGURATION MyConfiguration                       //start of the configuration section
-    TASK Main(Interval := T#1000ms, Priority := 1); //defines a plc task with name Main at a interval of 1000ms with priority 1
-    PROGRAM P1 WITH Main: MyProgram;                //defines that program p1 will run with task Main and will exist of code within MyProgram
+    TASK Main(Priority := 1); //defines a plc task with name Main at a interval of 1000ms with priority 1
+    PROGRAM P1 WITH Main: MainProgram;                //defines that program p1 will run with task Main and will exist of code within MyProgram
 
     VAR_GLOBAL                                      //Defines the start of the global var section
 
@@ -27,7 +27,7 @@ CONFIGURATION MyConfiguration                       //start of the configuration
 END_CONFIGURATION
 ```
 
-3. Change the Interval to 500ms
+3. Change the Interval to 500ms by adding the `Interval` property in the TASK definition; `TASK Main(Interval := T#500ms, Priority := 1);`
 4. Let's add some variables into the `GLOBAL_VAR` section:
 
 ```
@@ -81,7 +81,7 @@ count.reset := count_value >= 10;                   //restart the counter and it
 ```
 USING System.Counters;
 
-PROGRAM MyProgram
+PROGRAM MainProgram
   VAR_EXTERNAL
      toggle : BOOL;
      output_signal: BOOL;
