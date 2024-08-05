@@ -66,7 +66,7 @@ VAR                                                 //Defines variables used in 
    count : CounterUp := (presetValue := 5);         //Declare a variable named count of type counterUp (object in the system.counters library) that signals when 5 is reached
 END_VAR
 ```
-5. At the `// code here` comment, add the actual logic of your program, the program will count up every other cycle and will reset after it reached 10:
+5. Above the `END_PROGRAM` tag , add the actual logic of your program, the program will count up every other cycle and will reset after it reached 10:
 ```
 toggle := NOT toggle;                               //switch the state between true and false with every PLC cycle. This will create a rising edge on the signal every two PLC cycles.
 count(up := toggle);                                //call the counter and increment the count value of it by one each time a rising edge on the toggle signal has been detected.
