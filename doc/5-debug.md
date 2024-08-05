@@ -9,7 +9,7 @@ After this training chapter, you will:
 - Be familair with monitoring variables in your code
 
 ## :raised_hands: Requirements for debugging (hands-on) :raised_hands:
-*This step is no longer required since 2045.0.0*
+*This step is no longer required since 2045.0.0 (--debug is allready present in the new template)*
 1. The AX application must be build with the `--debug` argument in the `apax.yml`. Check is this is true for your project. If the argument is not yet present add the following line to the `apax.yml` and rebuild the library.
 
 ```yaml
@@ -21,7 +21,7 @@ variables:
 2. Rebuild and download the application to the target.
 
 ## :raised_hands: Setting up the debugger in AX (hands-on) :raised_hands:
-
+*This step is no longer required since 2045.0.0 (the template includes this file now)*
 > Note: The latest SDK allready creates the required `launch.json` file in the `.vscode` folder. The next steps are no longer required.
 1. Open the Debug tab
 2. Press the `Create a launch.json file` link
