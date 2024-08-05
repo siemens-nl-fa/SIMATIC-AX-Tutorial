@@ -9,7 +9,7 @@ After this training chapter, you will:
 - Be familair with monitoring variables in your code
 
 ## :raised_hands: Requirements for debugging (hands-on) :raised_hands:
-
+*This step is no longer required since 2045.0.0*
 1. The AX application must be build with the `--debug` argument in the `apax.yml`. Check is this is true for your project. If the argument is not yet present add the following line to the `apax.yml` and rebuild the library.
 
 ```yaml
