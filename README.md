@@ -44,13 +44,13 @@ This tutorial is structured in multiple sequential chapters, which can be used a
 During this tutorial the following prerequisites are required.
 
 - an configured AX account
-- a configured github account
+- a configured github account (Optional)
   - [how to get your public key from AX](https://console.simatic-ax.siemens.io/docs/axcode/source-code-management)
   - [how to add a SSH key on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
   - > Note: you need this public key to be able to clone the repository in the cloud IDE
     >
 - an installation of the offline AX IDE logged in to APAX (using apax login)
-- locally configured Git install
+- locally configured Git install (Optional)
 - TIA portal V18> installation
 - PLCSIM Advanced or physical s7-1500 with a loaded hardware configuration
 
