@@ -14,6 +14,6 @@ PROGRAM MyProgram
    count(up := toggle);
    output_signal := count.presetReached;
    count_value := count.value;
-   count.reset := count_value >= 10;
+   count.reset := count_value >= 15;
    power_value := Power(count_value);
 END_PROGRAM
