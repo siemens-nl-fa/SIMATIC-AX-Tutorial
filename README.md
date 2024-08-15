@@ -51,6 +51,7 @@ During this tutorial the following prerequisites are required.
   - > Note: you need this public key to be able to clone the repository in the cloud IDE
     >
 - an installation of the offline AX IDE logged in to APAX (using apax login)
+- installed the [prerequisites for AX](https://console.simatic-ax.siemens.io/docs/get-started/prerequisites)
 - locally configured Git install (Optional)
 - TIA portal V18> installation
 - PLCSIM Advanced or physical s7-1500 with a loaded hardware configuration
