@@ -25,7 +25,7 @@ This tutorial is structured in multiple sequential chapters, which can be used a
 > Note: Although this tutorial focuses on the local IDE, the workflow is very similar in the cloud IDE.
 
 ## Training chapters
-> **Tip**: Within each chapter the headers are marked with a icon, the :mortar_board: indicates learning goals, :information_source: indicates a information section, :raised_hands: is a hands-on section.
+> **Tip**: In each chapter the headers are marked with a icon, the :mortar_board: icon indicates learning goals, the :information_source: icon indicates a information section, the :raised_hands: icon indicates a hands-on section.
 
 - [0. Navigating AX](./doc/0-navigating.md) :arrow_left:(Start here)
 - [1. Setting up a project using the Apax package manager](./doc/1-setup.md)
