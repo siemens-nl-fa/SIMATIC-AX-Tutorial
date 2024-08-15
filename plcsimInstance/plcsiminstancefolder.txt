@@ -1,0 +1,2 @@
+copy the axplc folder to;
+C:\Users\$USER\Documents\Siemens\Simatic\Simulation\Runtime\Persistence
