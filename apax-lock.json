@@ -7,14 +7,11 @@
     "name": "sideloadingtutorial",
     "version": "0.0.0",
     "dependencies": {
-      "@ax/system-counters": "7.0.17"
+      "@ax/system-counters": "^7.0.17"
     },
     "devDependencies": {
       "@ax/sdk": "2405.0.0",
       "@ax/st-lang-contrib-library-toolbox": "^0.19.2"
-    },
-    "catalogs": {
-      "@ax/simatic-ax": "^2405.0.0"
     }
   },
   "packages": {
@@ -45,18 +42,18 @@
         "@ax/trace": "2.7.2"
       }
     },
-    "@ax/system-counters": {
-      "name": "@ax/system-counters",
-      "version": "7.0.17",
-      "integrity": "sha512-FuJ8rspzJw4+icqWwADCt9aLdylq4rWWVaZhbp7HWZzTzcY+jJnlxGibRUntaxAUKMxDBevUF22LEoFEcPPSyQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-counters/-/system-counters-7.0.17.tgz",
-      "dependencies": {}
-    },
     "@ax/st-lang-contrib-library-toolbox": {
       "name": "@ax/st-lang-contrib-library-toolbox",
       "version": "0.19.2",
       "integrity": "sha512-AhyT/kpH6+scCNeStUfCBH0d6EKYPUQYT4MI5Aq838HSJWf64deGx+VdnNXVpKeShRC4JSz6ZTTvKuZrkCDz4g==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-lang-contrib-library-toolbox/-/st-lang-contrib-library-toolbox-0.19.2.tgz",
+      "dependencies": {}
+    },
+    "@ax/system-counters": {
+      "name": "@ax/system-counters",
+      "version": "7.0.17",
+      "integrity": "sha512-FuJ8rspzJw4+icqWwADCt9aLdylq4rWWVaZhbp7HWZzTzcY+jJnlxGibRUntaxAUKMxDBevUF22LEoFEcPPSyQ==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-counters/-/system-counters-7.0.17.tgz",
       "dependencies": {}
     },
     "@ax/apax-build": {
@@ -721,68 +718,5 @@
       "dependencies": {}
     }
   },
-  "workspaces": {},
-  "catalogs": {
-    "@ax/simatic-ax": {
-      "name": "@ax/simatic-ax",
-      "version": "2405.0.0",
-      "integrity": "sha512-57FVpKHTInNNsfYAHpWnKd4SphA6JkPAEQz5CdyFWoBcS7sQ+J8vgg4NiZST+/Jaymyg7lM6QtC4ImrkXMhf3g==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/simatic-ax/-/simatic-ax-2405.0.0.tgz",
-      "dependencies": {},
-      "catalogDependencies": {
-        "@ax/stc": "7.0.52",
-        "@ax/target-mc7plus": "7.0.52",
-        "@ax/target-llvm": "7.0.52",
-        "@ax/st-ls": "7.0.52",
-        "@ax/apax-build": "1.0.0",
-        "@ax/build-native": "16.0.3",
-        "@ax/axunitst": "5.0.74",
-        "@ax/axunitst-ls-contrib": "5.0.74",
-        "@ax/axunitst-library": "5.0.74",
-        "@ax/sld": "2.5.7",
-        "@ax/mod": "1.2.2",
-        "@ax/mon": "1.2.2",
-        "@ax/sdb": "1.2.2",
-        "@ax/diag": "1.0.4",
-        "@ax/trace": "2.7.2",
-        "@ax/diagnostic-buffer": "1.3.1",
-        "@ax/certificate-management": "1.1.2",
-        "@ax/simatic-1500-clocks": "7.0.4",
-        "@ax/simatic-1500-fileaccess": "6.0.1",
-        "@ax/simatic-1500-diagnostics-hardware": "7.0.1",
-        "@ax/simatic-1500-distributedio": "7.0.1",
-        "@ax/simatic-1500-processimage": "7.0.9",
-        "@ax/simatic-1500-tasks": "6.0.8",
-        "@ax/simatic-1500-motioncontrol-native-v5": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-native-v6": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-native-v7": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-native-v8": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-v7": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-v7-mocking": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-v8": "6.0.11",
-        "@ax/simatic-1500-motioncontrol-v8-mocking": "6.0.11",
-        "@ax/simatic-1500": "6.0.2",
-        "@ax/performance-info": "1.1.1",
-        "@ax/dcp-utility": "1.1.2",
-        "@ax/ax2tia": "9.0.26",
-        "@ax/simatic-pragma-stc-plugin": "4.0.18",
-        "@ax/plc-info": "2.4.0",
-        "@ax/hwc": "1.0.225",
-        "@ax/hwld": "1.0.75",
-        "@ax/system": "7.0.17",
-        "@ax/system-bitaccess": "7.0.17",
-        "@ax/system-counters": "7.0.17",
-        "@ax/system-datetime": "7.0.17",
-        "@ax/system-edgedetection": "7.0.17",
-        "@ax/system-math": "7.0.17",
-        "@ax/system-selection": "7.0.17",
-        "@ax/system-serde": "7.0.17",
-        "@ax/system-strings": "7.0.17",
-        "@ax/system-timer": "7.0.17",
-        "@ax/opcua-server-config": "1.0.0",
-        "@ax/simatic-1500-communication": "7.0.10",
-        "@ax/sdk": "2405.0.0"
-      }
-    }
-  }
+  "workspaces": {}
 }
