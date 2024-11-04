@@ -1,4 +1,3 @@
-
 FUNCTION Power : LINT
     VAR_INPUT
         x : LINT;

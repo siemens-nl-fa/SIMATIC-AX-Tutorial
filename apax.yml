@@ -5,12 +5,23 @@ targets:
   - "1500"
   - llvm
 variables:
+  IP_PLC: 192.168.0.1
+  BIN_FOLDER: "./bin/1500"
   APAX_BUILD_ARGS:
     - "--debug" # Generate debug information for target "1500"
 devDependencies:
   "@ax/sdk": 2405.0.0
-  "@ax/st-lang-contrib-library-toolbox": ^0.19.2
+  "@ax/st-lang-contrib-library-toolbox": ^0.21.1
 dependencies:
-  "@ax/system-counters": ^7.0.17
+  "@ax/system-counters": ^7.1.47
+  "@ax/system-math": ^7.1.47
+
 installStrategy: strict
-apaxVersion: 3.1.0
+apaxVersion: 3.3.1
+
+scripts:
+  load: apax sld load --input $BIN_FOLDER --target $IP_PLC --restart --accept-security-disclaimer --log debug
+  blsim:
+    - apax test
+    - apax build
+    - apax load

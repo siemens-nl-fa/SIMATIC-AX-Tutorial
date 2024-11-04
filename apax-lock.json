@@ -7,11 +7,12 @@
     "name": "sideloadingtutorial",
     "version": "0.0.0",
     "dependencies": {
-      "@ax/system-counters": "^7.0.17"
+      "@ax/system-counters": "^7.1.47",
+      "@ax/system-math": "^7.1.47"
     },
     "devDependencies": {
       "@ax/sdk": "2405.0.0",
-      "@ax/st-lang-contrib-library-toolbox": "^0.19.2"
+      "@ax/st-lang-contrib-library-toolbox": "^0.21.1"
     }
   },
   "packages": {
@@ -44,16 +45,23 @@
     },
     "@ax/st-lang-contrib-library-toolbox": {
       "name": "@ax/st-lang-contrib-library-toolbox",
-      "version": "0.19.2",
-      "integrity": "sha512-AhyT/kpH6+scCNeStUfCBH0d6EKYPUQYT4MI5Aq838HSJWf64deGx+VdnNXVpKeShRC4JSz6ZTTvKuZrkCDz4g==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-lang-contrib-library-toolbox/-/st-lang-contrib-library-toolbox-0.19.2.tgz",
+      "version": "0.21.1",
+      "integrity": "sha512-lkDfz3TwcG9k6N44XcrSOzh86d2KqLV8SiWa8cB2pgpIs2t8wXb+HFmUCovzmDIJ5gSuMx1UNHGeDT6GSjbRhQ==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-lang-contrib-library-toolbox/-/st-lang-contrib-library-toolbox-0.21.1.tgz",
       "dependencies": {}
     },
     "@ax/system-counters": {
       "name": "@ax/system-counters",
-      "version": "7.0.17",
-      "integrity": "sha512-FuJ8rspzJw4+icqWwADCt9aLdylq4rWWVaZhbp7HWZzTzcY+jJnlxGibRUntaxAUKMxDBevUF22LEoFEcPPSyQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-counters/-/system-counters-7.0.17.tgz",
+      "version": "7.1.47",
+      "integrity": "sha512-oVeXLD34rQYeT7YvS5QJuyPS4jlU0B3H80l9AQAWM6b41vaPtQBPhhoBHpEqhE8byg0GLx+jQqOwGEnUOnVxTA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-counters/-/system-counters-7.1.47.tgz",
+      "dependencies": {}
+    },
+    "@ax/system-math": {
+      "name": "@ax/system-math",
+      "version": "7.1.47",
+      "integrity": "sha512-xU30iSLTLTcSLSRrww4tguGUPr4lyiwHJBexUmsLXEBy/OyJqkwEJbY6gzGCJ6ciGXSQUVEkbfKM/blIztMzAA==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-math/-/system-math-7.1.47.tgz",
       "dependencies": {}
     },
     "@ax/apax-build": {
@@ -76,7 +84,8 @@
         "@ax/axunitst-test-director": "5.0.74",
         "@ax/axunitst-docs": "5.0.74",
         "@ax/build-native": "16.0.3"
-      }
+      },
+      "deprecated": ""
     },
     "@ax/axunitst-ls-contrib": {
       "name": "@ax/axunitst-ls-contrib",
@@ -280,7 +289,8 @@
       "version": "5.0.74",
       "integrity": "sha512-QitNPL5avajAf8U4w8QlZnFaHev1ohxnKe5t07/H00rDlczn3y4ofEhe3VLdqSNak49i7uwSzUiEf/y7dJLRNw==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/axunitst-docs/-/axunitst-docs-5.0.74.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": ""
     },
     "@ax/build-native": {
       "name": "@ax/build-native",
@@ -636,12 +646,12 @@
     },
     "@ax/system-strings": {
       "name": "@ax/system-strings",
-      "version": "7.0.17",
-      "integrity": "sha512-xrT2GzVqeTXVF5Nq7wXKwYTb9FqIV3F5DWWGGEUwZvrm5t2unyFqsBDXoFBWDicPuhUFaH0FUwp1NqvMSN95pQ==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-strings/-/system-strings-7.0.17.tgz",
+      "version": "7.1.47",
+      "integrity": "sha512-ERClBkAtu1dabBJFMZvA7RUPNwnaXfQC3B81IbRFtWcBTKso6qIgqGe9uku9TdSBYqfrQgwDkxneJtJNDDm5Kg==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-strings/-/system-strings-7.1.47.tgz",
       "dependencies": {
-        "@ax/system-math": "7.0.17",
-        "@ax/system-datetime": "7.0.17"
+        "@ax/system-math": "^7.1.47",
+        "@ax/system-datetime": "^7.1.47"
       }
     },
     "@ax/axunitst-test-director-linux-x64": {
@@ -701,20 +711,14 @@
       "version": "7.0.52",
       "integrity": "sha512-iKLQAGv6Au/CsImP/RmCy0nRIUCQMjrAdgo/AmWrH3+MvPLjhowbsNSQsq1YUP34PbYI0ThH6tQjkUta2dFc7A==",
       "resolved": "https://registry.simatic-ax.siemens.io/@ax/st-docs/-/st-docs-7.0.52.tgz",
-      "dependencies": {}
-    },
-    "@ax/system-math": {
-      "name": "@ax/system-math",
-      "version": "7.0.17",
-      "integrity": "sha512-nHwRWg5Skzq3dgV29XVa7wni0ZQkn/ff6csYxrS7IsNKGb2nKOAJQFb/WzrfcxbsTYhTPOyifI6ulDgMu50Y6w==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-math/-/system-math-7.0.17.tgz",
-      "dependencies": {}
+      "dependencies": {},
+      "deprecated": ""
     },
     "@ax/system-datetime": {
       "name": "@ax/system-datetime",
-      "version": "7.0.17",
-      "integrity": "sha512-mgB6+Ln5eLXsGJb4nl6/sW7SwAipSrFvttMWGAJMOym3qx7F1MuAdcZ6NaRS0rV0mpyyTEzgG3sk2voMN1OK1Q==",
-      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-datetime/-/system-datetime-7.0.17.tgz",
+      "version": "7.1.47",
+      "integrity": "sha512-yk8erRctiVKHjpe1nca9WUhatotm6S5lEkye4R2XBl7vU7CaPp84q7MzhkSCgQYn08LJqlFRBbxP+bpERiei8g==",
+      "resolved": "https://registry.simatic-ax.siemens.io/@ax/system-datetime/-/system-datetime-7.1.47.tgz",
       "dependencies": {}
     }
   },
