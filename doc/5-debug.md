@@ -43,7 +43,7 @@ variables:
 
 ## :raised_hands: Tracing variables (hands-on):raised_hands:
 
-1. To enable the tracing ability of AX create a new file in the following structure `.ax\plc\plc_1.yml`
+1. To enable the tracing ability of AX create a new file in the following structure `.ax\plcs\plc_1.yml`
 2. This file should contain the following;
    ```host: 192.168.0.1```
 3. Save and close the file and go the **Tracing** panel.
